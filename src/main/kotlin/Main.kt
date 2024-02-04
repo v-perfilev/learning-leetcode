@@ -1,8 +1,8 @@
 // import explore.bit.e12.Solution
 
-import problems.t2966.Solution
+import problems.t1043.Solution
 
 fun main() {
     val solution = Solution()
-    println(solution.divideArray(intArrayOf(1,3,4,8,7,9,3,5,1), 2).contentToString())
+    println(solution.maxSumAfterPartitioning(intArrayOf(1, 15, 7, 9, 2, 5, 10), 3))
 }
